@@ -9,18 +9,34 @@ function NavBar() {
     <Navbar fixed="top" bg="dark" data-bs-theme="dark">
       <Container>
         <Nav>
-          <Navbar.Brand href={`/main-view`}>Troy Arsenault</Navbar.Brand>
+          <Navbar.Brand
+            href={`https://master--boisterous-malasada-876b9d.netlify.app//main-view`}
+          >
+            Troy Arsenault
+          </Navbar.Brand>
 
-          <Nav.Link className="nav-bio" href={`/bio-view`}>
+          <Nav.Link
+            className="nav-bio"
+            href={`https://master--boisterous-malasada-876b9d.netlify.app//bio-view`}
+          >
             Bio
           </Nav.Link>
-          <Nav.Link className="nav-music" href={`/music-view`}>
+          <Nav.Link
+            className="nav-music"
+            href={`https://master--boisterous-malasada-876b9d.netlify.app//music-view`}
+          >
             Music
           </Nav.Link>
-          <Nav.Link className="nav-venue" href={`/venue-view`}>
+          <Nav.Link
+            className="nav-venue"
+            href={`https://master--boisterous-malasada-876b9d.netlify.app//venue-view`}
+          >
             Venues
           </Nav.Link>
-          <Nav.Link className="nav-contact" href={`/contact-view`}>
+          <Nav.Link
+            className="nav-contact"
+            href={`https://master--boisterous-malasada-876b9d.netlify.app//contact-view`}
+          >
             Contact
           </Nav.Link>
         </Nav>
