@@ -19,26 +19,11 @@ function App() {
           <NavBar />
           <Row>
             <Routes>
-              <Route
-                path="https://master--boisterous-malasada-876b9d.netlify.app//main-view"
-                element={<MainView />}
-              />
-              <Route
-                path="https://master--boisterous-malasada-876b9d.netlify.app//contact-view"
-                element={<ContactView />}
-              />
-              <Route
-                path="https://master--boisterous-malasada-876b9d.netlify.app//bio-view"
-                element={<BioView />}
-              />
-              <Route
-                path="https://master--boisterous-malasada-876b9d.netlify.app//music-view"
-                element={<MusicView />}
-              />
-              <Route
-                path="https://master--boisterous-malasada-876b9d.netlify.app//venue-view"
-                element={<VenueView />}
-              />
+              <Route path="/main-view" element={<MainView />} />
+              <Route path="/contact-view" element={<ContactView />} />
+              <Route path="/bio-view" element={<BioView />} />
+              <Route path="/music-view" element={<MusicView />} />
+              <Route path="/venue-view" element={<VenueView />} />
             </Routes>
           </Row>
           <SocialsBar />

@@ -2,41 +2,24 @@ import React from "react"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
-import { Link } from "react-router-dom"
 
 function NavBar() {
   return (
     <Navbar fixed="top" bg="dark" data-bs-theme="dark">
       <Container>
         <Nav>
-          <Navbar.Brand
-            href={`https://master--boisterous-malasada-876b9d.netlify.app//main-view`}
-          >
-            Troy Arsenault
-          </Navbar.Brand>
+          <Navbar.Brand href={`/main-view`}>Troy Arsenault</Navbar.Brand>
 
-          <Nav.Link
-            className="nav-bio"
-            href={`https://master--boisterous-malasada-876b9d.netlify.app//bio-view`}
-          >
+          <Nav.Link className="nav-bio" href={`/bio-view`}>
             Bio
           </Nav.Link>
-          <Nav.Link
-            className="nav-music"
-            href={`https://master--boisterous-malasada-876b9d.netlify.app//music-view`}
-          >
+          <Nav.Link className="nav-music" href={`/music-view`}>
             Music
           </Nav.Link>
-          <Nav.Link
-            className="nav-venue"
-            href={`https://master--boisterous-malasada-876b9d.netlify.app//venue-view`}
-          >
+          <Nav.Link className="nav-venue" href={`/venue-view`}>
             Venues
           </Nav.Link>
-          <Nav.Link
-            className="nav-contact"
-            href={`https://master--boisterous-malasada-876b9d.netlify.app//contact-view`}
-          >
+          <Nav.Link className="nav-contact" href={`/contact-view`}>
             Contact
           </Nav.Link>
         </Nav>
