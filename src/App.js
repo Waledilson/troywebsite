@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App bg-dark">
       <Container>
-        <Router>
+        <Router basename={"/main-view"}>
           <NavBar />
           <Row>
             <Routes>
