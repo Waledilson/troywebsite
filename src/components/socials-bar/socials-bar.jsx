@@ -11,7 +11,7 @@ function SocialsBar() {
   return (
     <Navbar>
       <Nav>
-        <span className="socials-text">Alert the Medic</span>
+        {/* <span className="socials-text">Alert the Medic</span> */}
         <Nav.Link>
           <img
             className="spotify-icon"
