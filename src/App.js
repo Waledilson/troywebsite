@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
 import SocialsBar from "../src/components/socials-bar/socials-bar"
+// import {Netlify_URL} from "../config.js"
 
 function App() {
   return (
@@ -18,11 +19,26 @@ function App() {
           <NavBar />
           <Row>
             <Routes>
-              <Route path="/main-view" element={<MainView />} />
-              <Route path="/contact-view" element={<ContactView />} />
-              <Route path="/bio-view" element={<BioView />} />
-              <Route path="/music-view" element={<MusicView />} />
-              <Route path="/venue-view" element={<VenueView />} />
+              <Route
+                path="https://master--boisterous-malasada-876b9d.netlify.app//main-view"
+                element={<MainView />}
+              />
+              <Route
+                path="https://master--boisterous-malasada-876b9d.netlify.app//contact-view"
+                element={<ContactView />}
+              />
+              <Route
+                path="https://master--boisterous-malasada-876b9d.netlify.app//bio-view"
+                element={<BioView />}
+              />
+              <Route
+                path="https://master--boisterous-malasada-876b9d.netlify.app//music-view"
+                element={<MusicView />}
+              />
+              <Route
+                path="https://master--boisterous-malasada-876b9d.netlify.app//venue-view"
+                element={<VenueView />}
+              />
             </Routes>
           </Row>
           <SocialsBar />
