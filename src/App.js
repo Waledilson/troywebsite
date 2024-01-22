@@ -19,7 +19,7 @@ function App() {
           <NavBar />
           <Row>
             <Routes>
-              <Route path="/main-view" element={<MainView />} />
+              <Route path="/" element={<MainView />} />
               <Route path="/contact-view" element={<ContactView />} />
               <Route path="/bio-view" element={<BioView />} />
               <Route path="/music-view" element={<MusicView />} />
