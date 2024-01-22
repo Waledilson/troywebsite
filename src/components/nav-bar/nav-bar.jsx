@@ -8,7 +8,7 @@ function NavBar() {
     <Navbar fixed="top" bg="dark" data-bs-theme="dark">
       <Container>
         <Nav>
-          <Navbar.Brand href={`/main-view`}>Troy Arsenault</Navbar.Brand>
+          <Navbar.Brand href={`/main-view`}>Troy Arseneault</Navbar.Brand>
 
           <Nav.Link className="nav-bio" href={`/bio-view`}>
             Bio
