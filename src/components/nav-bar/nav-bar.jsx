@@ -2,14 +2,21 @@ import React from "react"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
+import logo1 from "../../../src/img/logo1.png"
 
 function NavBar() {
   return (
-    <Navbar fixed="top" bg="dark" data-bs-theme="dark">
+    <Navbar fixed="top" bg="white" data-bs-theme="light">
       <Container>
         <Nav>
-          <Navbar.Brand href={`/`}>Troy Arseneault</Navbar.Brand>
-
+          <Navbar.Brand href={`/`}>
+            <img
+              src={logo1}
+              width="35px"
+              height="35px"
+              alt="Arseneault Group Logo"
+            />
+          </Navbar.Brand>
           <Nav.Link className="nav-bio" href={`/bio-view`}>
             Bio
           </Nav.Link>

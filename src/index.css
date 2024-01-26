@@ -18,12 +18,18 @@ body {
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 /* NAVBAR */
 
 /* MAINVIEW */
+.mainpic {
+  opacity: 0.5;
+}
+.mainpic:hover {
+  opacity: 0.7;
+}
 
 /* BIOVIEW */
 
@@ -36,12 +42,17 @@ p {
 } */
 
 .accordion-button:not(.collapsed) {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
 .accordion-button {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
+}
+.accordion-button:focus {
+  box-shadow: 3px 3px 3px 3px #7a7693;
+  border-color: #7a7693;
+  border-radius: 2px;
 }
 /* .show {
   background: black;

@@ -13,7 +13,7 @@ import SocialsBar from "../src/components/socials-bar/socials-bar"
 
 function App() {
   return (
-    <div className="App bg-dark">
+    <div className="App bg-white">
       <Container>
         <Router>
           <NavBar />
