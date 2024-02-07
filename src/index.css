@@ -7,13 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://canadianbeats.ca/wp-content/uploads/2015/12/Alert_The_Medic_271115-11-820x547.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 body {
-  margin-top: 56px;
+  margin-top: 90px;
   font-family: "Gill Sans", sans-serif;
 }
 
@@ -23,9 +34,17 @@ p {
 
 /* NAVBAR */
 
+.navbar {
+  font-size: 30px;
+  border: 2px black;
+}
+
 /* MAINVIEW */
 .mainpic {
   opacity: 0.7;
+}
+.event-one {
+  color: #222;
 }
 /* .mainpic:hover {
   opacity: 0.7;

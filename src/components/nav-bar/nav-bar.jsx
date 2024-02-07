@@ -7,13 +7,13 @@ import logo1 from "../../../src/img/logo1.png"
 function NavBar() {
   return (
     <Navbar fixed="top" bg="white" data-bs-theme="light">
-      <Container>
+      <Container class="navbar">
         <Nav>
           <Navbar.Brand href={`/`}>
             <img
               src={logo1}
-              width="35px"
-              height="35px"
+              width="50px"
+              height="50px"
               alt="Arseneault Group Logo"
             />
           </Navbar.Brand>

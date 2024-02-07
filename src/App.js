@@ -20,10 +20,10 @@ function App() {
           <Row>
             <Routes>
               <Route path="/" element={<MainView />} />
-              <Route path="/contact-view" element={<ContactView />} />
+              {/* <Route path="/contact-view" element={<ContactView />} /> */}
               <Route path="/bio-view" element={<BioView />} />
-              <Route path="/music-view" element={<MusicView />} />
-              <Route path="/venue-view" element={<VenueView />} />
+              {/* <Route path="/music-view" element={<MusicView />} />
+              <Route path="/venue-view" element={<VenueView />} /> */}
             </Routes>
           </Row>
           <SocialsBar />
