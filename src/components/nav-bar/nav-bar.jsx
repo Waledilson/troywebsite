@@ -3,21 +3,23 @@ import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
 import logo1 from "../../../src/img/logo1.png"
+import logobanner from "../../../src/img/agelogo-banner.JPG"
 
 function NavBar() {
   return (
     <Navbar fixed="top" bg="white" data-bs-theme="light">
       <Container class="navbar">
         <Nav>
-          <Navbar.Brand href={`/`}>
-            <img
-              src={logo1}
-              width="50px"
-              height="50px"
-              alt="Arseneault Group Logo"
-            />
-          </Navbar.Brand>
-          <Nav.Link className="nav-bio" href={`/bio-view`}>
+          {/* <Navbar.Brand href={`/`}> */}
+          <img
+            src={logobanner}
+            class="bannerlogo"
+            width="100%"
+            height="60%"
+            alt="Arseneault Group Logo"
+          />
+          {/* </Navbar.Brand> */}
+          {/* <Nav.Link className="nav-bio" href={`/bio-view`}>
             Bio
           </Nav.Link>
           <Nav.Link className="nav-music" href={`/music-view`}>
@@ -28,7 +30,7 @@ function NavBar() {
           </Nav.Link>
           <Nav.Link className="nav-contact" href={`/contact-view`}>
             Contact
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
       </Container>
     </Navbar>

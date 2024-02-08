@@ -1,15 +1,83 @@
 import React from "react"
+import Card from "react-bootstrap/card"
+import agelogoround from "../../../src/img/agelogo-round.JPG"
 
 function MainView() {
   return (
-    <div class="event-one">
-      <h3>Surge Radio Presents: The Basement Sessions</h3>
+    <div class="main">
+      <Card className="event-card" style={{ width: "80vw" }}>
+        <Card.Body>
+          <Card.Title as="h1">Surge Radio Presents:</Card.Title>
+          <Card.Subtitle as="h2" className="mb-2 text-muted">
+            The Basement Sessions
+          </Card.Subtitle>
+          <Card.Text as="p">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+        </Card.Body>
+      </Card>
+      {/* <h3>Surge Radio Presents: The Basement Sessions</h3>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p>
+      <p>
+        words words words words words words words words words words words words{" "}
+      </p> */}
     </div>
-    // <img
-    //   class="mainpic"
-    //   src="https://canadianbeats.ca/wp-content/uploads/2015/12/Alert_The_Medic_271115-11-820x547.jpg"
-    //   alt="placeholder for dope pic of troy"
-    // ></img>
   )
 }
 
