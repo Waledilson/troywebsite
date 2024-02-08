@@ -1,5 +1,5 @@
 import React from "react"
-import Card from "react-bootstrap/card"
+import Card from "react-bootstrap/Card"
 import agelogoround from "../../../src/img/agelogo-round.JPG"
 
 function MainView() {
