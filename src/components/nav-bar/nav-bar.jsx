@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
 import logo1 from "../../../src/img/logo1.png"
 import logobanner from "../../../src/img/agelogo-banner.JPG"
+import logobannertop from "../../../src/img/agelogo-banner-top.jpg"
 
 function NavBar() {
   return (

@@ -9,7 +9,7 @@ import twitter_icon from "../../../src/img/twitter_icon.svg"
 
 function SocialsBar() {
   return (
-    <Navbar>
+    <Navbar className="socials">
       <Nav>
         {/* <span className="socials-text">Alert the Medic</span> */}
         <Nav.Link>
