@@ -34,7 +34,7 @@ body {
   color: black;
   font-size: 20pt;
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 0px 0px 50px 0px;
+  padding: 0px 10px 00px 10px;
 }
 /* body {
   background-image: linear-gradient(
@@ -105,7 +105,7 @@ p {
 }
 .event-card {
   background-color: rgba(247, 247, 247, 0.8);
-  padding: 50px 0px 50px 0px;
+  padding: 100px 0px 50px 0px;
 }
 /* NAVBAR */
 
