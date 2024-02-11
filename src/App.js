@@ -4,6 +4,8 @@ import MainView from "../src/components/main-view/main-view"
 // import BioView from "../src/components/bio-view/bio-view"
 // import MusicView from "../src/components/music-view/music-view"
 // import VenueView from "../src/components/venue-view/venue-view"
+import EventCard from "../src/components/event-card/event-card"
+
 import NavBar from "../src/components/nav-bar/nav-bar"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Row from "react-bootstrap/Row"
@@ -26,6 +28,7 @@ function App() {
               <Route path="/venue-view" element={<VenueView />} /> */}
             </Routes>
           </Row>
+          <EventCard />
           <SocialsBar />
         </Router>
       </Container>
