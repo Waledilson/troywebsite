@@ -5,8 +5,8 @@ import EventCard from "../event-card/event-card"
 
 function MainView() {
   return (
-    <div class="main">
-      <p>
+    <div className="main">
+      <p className="agedescription">
         This is where I write all about what Arseneault Group Entertainment
         does. This is where I write all about what Arseneault Group
         Entertainment does. It's gonna be dope as fuck and there's gonna be all
