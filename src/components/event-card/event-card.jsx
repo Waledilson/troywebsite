@@ -1,10 +1,20 @@
 import React from "react"
 import Card from "react-bootstrap/Card"
 import agelogoround from "../../../src/img/agelogo-round.JPG"
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react"
 
 function EventCard() {
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
-    <Card className="event-card" style={{ width: "90vw" }}>
+    <Card
+      data-aos="fade-right"
+      className="event-card"
+      style={{ width: "90vw" }}
+    >
       <Card.Body>
         <Card.Title as="h1">Surge Radio Presents:</Card.Title>
         <Card.Subtitle as="h2" className="mb-2 text-muted">
