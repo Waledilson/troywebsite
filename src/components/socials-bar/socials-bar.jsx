@@ -10,34 +10,35 @@ import twitter_icon from "../../../src/img/twitter_icon.svg"
 function SocialsBar() {
   return (
     <Navbar className="socials">
-      <Nav>
-        {/* <span className="socials-text">Alert the Medic</span> */}
+      <Nav className="socials-logos">
         <Nav.Link>
           <img
             className="spotify-icon"
             src={spotify_icon}
-            width="30px"
-            height="30px"
+            width="50px"
+            height="50px"
             alt="link to troys spotify"
           />
         </Nav.Link>
         <Nav.Link>
           <img
+            className="facebook-icon"
             src={facebook_icon}
-            width="30px"
-            height="30px"
+            width="50px"
+            height="50px"
             alt="link to troys spotify"
           />
         </Nav.Link>
         <Nav.Link>
           <img
+            className="instagram-icon"
             src={instagram_icon}
-            width="30px"
-            height="30px"
+            width="50px"
+            height="50px"
             alt="link to troys spotify"
           />
         </Nav.Link>
-        <Nav.Link>
+        {/* <Nav.Link>
           <img
             src={bandcamp_icon}
             width="30px"
@@ -52,7 +53,7 @@ function SocialsBar() {
             height="30px"
             alt="link to troys spotify"
           />
-        </Nav.Link>
+        </Nav.Link> */}
       </Nav>
     </Navbar>
   )

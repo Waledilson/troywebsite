@@ -58,7 +58,7 @@ body {
 
 .main::before {
   content: "";
-  background-image: url("img/agelogo-round.JPG");
+  background-image: url("img/age-light-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -91,12 +91,15 @@ body {
   }
 }
 
+/* EVENTCARD */
+
 h3 {
   position: relative;
   color: #000000;
   line-height: 0.9;
   text-align: left;
 }
+
 p {
   position: relative;
   color: #000000;
@@ -107,6 +110,16 @@ p {
   background-color: rgba(247, 247, 247, 0.8);
   padding: 30px 0px 30px 0px;
 }
+.event-card-title {
+  text-align: center;
+}
+/* .event-card-body {
+} */
+.event-card-links {
+  display: flex;
+  justify-content: center;
+}
+
 /* NAVBAR */
 
 .bannerlogo {
@@ -131,42 +144,6 @@ p {
 .event-one {
   color: #222;
 }
-/* .mainpic:hover {
-  opacity: 0.7;
-} */
-
-/* BIOVIEW */
-
-/* MUSICVIEW */
-
-/* VENUEVIEW */
-/* .accordion-body {
-  background: black;
-  color: white;
-} */
-
-.accordion-button:not(.collapsed) {
-  background: white;
-  color: black;
-}
-.accordion-button {
-  background: white;
-  color: black;
-}
-.accordion-button:focus {
-  box-shadow: 3px 3px 3px 3px #7a7693;
-  border-color: #7a7693;
-  border-radius: 2px;
-}
-/* .show {
-  background: black;
-  color: white;
-} */
-/* .collapsing {
-  background: #333333;
-  color: white;
-} */
-/* CONTACTVIEW */
 
 /* SOCIALSVIEW */
 
@@ -176,4 +153,9 @@ p {
 
 .socials-text {
   color: white;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
 }

@@ -1,6 +1,5 @@
 import React from "react"
 import Card from "react-bootstrap/Card"
-import agelogoround from "../../../src/img/agelogo-round.JPG"
 import EventCard from "../event-card/event-card"
 
 function MainView() {
