@@ -62,8 +62,10 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  /* gotta fix the backtround logo jumpin around when scrolling on mobile */
 
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
