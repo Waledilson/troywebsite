@@ -1,6 +1,4 @@
 import React from "react"
-import Card from "react-bootstrap/Card"
-import EventCard from "../event-card/event-card"
 
 function MainView() {
   return (
@@ -11,7 +9,6 @@ function MainView() {
         Entertainment does. It's gonna be dope as fuck and there's gonna be all
         kinds of wicked shit to write about.
       </p>
-      {/* <EventCard /> */}
     </div>
   )
 }

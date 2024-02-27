@@ -4,7 +4,8 @@ import MainView from "../src/components/main-view/main-view"
 // import BioView from "../src/components/bio-view/bio-view"
 // import MusicView from "../src/components/music-view/music-view"
 // import VenueView from "../src/components/venue-view/venue-view"
-import EventCard from "../src/components/event-card/event-card"
+import BasementSessionsCard from "../src/components/basement-card/basement-card"
+import BoyGoldenCard from "../src/components/boy-golden-card/boy-golden-card"
 
 import NavBar from "../src/components/nav-bar/nav-bar"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
@@ -24,7 +25,8 @@ function App() {
               <Route path="/" element={<MainView />} />
             </Routes>
           </Row>
-          <EventCard />
+          <BasementSessionsCard />
+          <BoyGoldenCard />
           <SocialsBar />
         </Router>
       </Container>
