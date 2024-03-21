@@ -2,16 +2,15 @@ import React from "react"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
-import lightBanner from "../../../src/img/age-light-banner.png"
+import darkBanner from "../../../src/img/age-dark-banner.png"
 
 function NavBar() {
   return (
-    <Navbar fixed="top" bg="white" data-bs-theme="light">
+    <Navbar fixed="top" bg="black" data-bs-theme="dark">
       <Container class="navbar">
         <Nav>
-          {/* <Navbar.Brand href={`/`}> */}
           <img
-            src={lightBanner}
+            src={darkBanner}
             class="bannerlogo"
             width="100%"
             height="60%"

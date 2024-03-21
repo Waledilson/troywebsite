@@ -4,6 +4,7 @@ import CardFooter from "react-bootstrap/CardFooter"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+import Surgelogo from "../../../src/img/surge-logo.webp"
 
 function BoyGoldenCard() {
   useEffect(() => {
@@ -17,15 +18,12 @@ function BoyGoldenCard() {
     >
       <Card.Body>
         <Card.Header as="h1" className="event-card-title">
-          Surge Radio & Arseneault Group Entertainment Presents:
-          <Card.Title as="h1" className="mb-2 text-muted">
+          <img src={Surgelogo} height="130px" witdth="160px" /> & Arseneault
+          Group Entertainment Presents:
+          <Card.Title as="h1" className="mb-2 ">
             Boy Golden
           </Card.Title>
         </Card.Header>
-
-        {/* <Card.Subtitle as="h2" className="mb-2 text-muted">
-            The Basement Sessions
-          </Card.Subtitle> */}
         <Card.Text as="p" className="event-card-body">
           When listening to his music, it feels easy to dissolve into the ether.
           Everything flows. From classic country to psych-folk, Alternative to

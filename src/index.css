@@ -24,17 +24,17 @@ code {
 }
 
 body {
-  /* margin-top: 90px; */
   height: 100%;
   bottom: 90px;
   font-family: "Gill Sans", sans-serif;
 }
 
 .agedescription {
-  color: black;
+  color: white;
   font-size: 20pt;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 0px 10px 00px 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0px 10px 200px 10px;
+  margin-bottom: 0;
 }
 /* body {
   background-image: linear-gradient(
@@ -58,7 +58,7 @@ body {
 
 .main::before {
   content: "";
-  background-image: url("img/age-light-logo.png");
+  background-image: url("img/age-dark-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -96,41 +96,40 @@ body {
 
 h3 {
   position: relative;
-  color: #000000;
+  color: #fff;
   line-height: 0.9;
   text-align: left;
 }
 
 p {
   position: relative;
-  color: #000000;
+  color: #fff;
   line-height: 0.9;
   text-align: center;
 }
 .event-card {
-  background-color: rgba(247, 247, 247, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 30px 10px 30px 10px;
 }
 .event-card-title {
+  color: white;
   text-align: center;
 }
-/* .event-card-body {
-} */
+
 .event-card-links {
   display: flex;
   justify-content: center;
 }
 .card-footer {
-  background-color: rgba(247, 247, 247, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   border-top: none;
 }
 .card-header {
-  background-color: rgba(247, 247, 247, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   border-bottom: none;
 }
-/* .surgelogo {
-  get surge logo to be background image of the card
-} */
+
+/* BASEMENT CARD */
 
 /* NAVBAR */
 
@@ -141,7 +140,7 @@ p {
 
 .navbar {
   font-size: 30px;
-  border: 2px black;
+  border: 2px white;
   position: relative;
   right: 0;
   left: 0;
@@ -154,7 +153,7 @@ p {
 } */
 
 .event-one {
-  color: #222;
+  color: white;
 }
 
 /* SOCIALSVIEW */
