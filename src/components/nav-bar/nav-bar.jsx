@@ -9,7 +9,6 @@ function NavBar() {
     <Navbar fixed="top" bg="black" data-bs-theme="dark">
       <Container class="navbar">
         <Nav>
-          {/* <Navbar.Brand href={`/`}> */}
           <img
             src={darkBanner}
             class="bannerlogo"

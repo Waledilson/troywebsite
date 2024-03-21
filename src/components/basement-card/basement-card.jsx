@@ -19,10 +19,11 @@ function BasementSessionsCard() {
     >
       {/* <Card.Img src={Surgelogo} className="surgelogo" alt="Card image" /> */}
       {/* <Card.ImgOverlay> */}
-      <Card.Body>
+      <Card.Body className="basement-card">
         <Card.Header as="h1" className="event-card-title">
-          Surge Radio & Arseneault Group Entertainment Presents:
-          <Card.Title as="h1" className="mb-2 text-muted">
+          <img src={Surgelogo} height="130px" witdth="160px" /> & Arseneault
+          Group Entertainment Presents:
+          <Card.Title as="h1" className="mb-2">
             The Basement Sessions
           </Card.Title>
         </Card.Header>
