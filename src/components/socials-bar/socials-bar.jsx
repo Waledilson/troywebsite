@@ -18,7 +18,7 @@ function SocialsBar() {
             alt="link to troys spotify"
           />
         </Nav.Link>
-        <Nav.Link>
+        <Nav.Link href="https://www.facebook.com/share/Zs2kvn9zCuWpgAxF/?mibextid=WC7FNe">
           <img
             className="facebook-icon"
             src={facebook_icon}
