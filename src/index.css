@@ -92,7 +92,19 @@ body {
   }
 }
 
-/* EVENTCARD */
+/* EVENTCARD GLOBAL */
+.ticket-button {
+  background-color: #060606;
+  border: none;
+  width: 100%;
+}
+
+/* BOY GOLDEN CARD */
+
+.boy-golden-img {
+  width: 100%;
+  object-fit: cover;
+}
 
 h3 {
   position: relative;
@@ -130,6 +142,11 @@ p {
 }
 
 /* BASEMENT CARD */
+
+.basement-img {
+  width: 100%;
+  object-fit: cover;
+}
 
 /* NAVBAR */
 

@@ -5,6 +5,8 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 import Surgelogo from "../../../src/img/surge-logo.webp"
+import BoyGoldenImg from "../../../src/img/BoyGolden.jpg"
+import Button from "react-bootstrap/Button"
 
 function BoyGoldenCard() {
   useEffect(() => {
@@ -17,7 +19,8 @@ function BoyGoldenCard() {
       style={{ width: "90vw" }}
     >
       <Card.Body>
-        <Card.Header as="h1" className="event-card-title">
+        <Card.Img className="boy-golden-img" variant="top" src={BoyGoldenImg} />
+        {/* <Card.Header as="h1" className="event-card-title">
           <img src={Surgelogo} height="130px" witdth="160px" /> & Arseneault
           Group Entertainment Presents:
           <Card.Title as="h1" className="mb-2 ">
@@ -31,11 +34,21 @@ function BoyGoldenCard() {
           breezy, warm and gritty. And don’t it just feel good to listen to it.
         </Card.Text>
         <Card.Text>Time & Place: May 17th 2024 / The Seahorse</Card.Text>
-        <Card.Text>Cost: $12,000</Card.Text>
-
+        <Card.Text>Cost: $12,000</Card.Text> */}
+        {/* <img
+          src={BoyGoldenImg}
+          style={{ width: "100%", aspectRatio: 1 }}
+          alt="boy golden poster"
+        ></img> */}
         <CardFooter className="event-card-links">
-          {/* <Card.Link href="#">Event Page</Card.Link> */}
-          <Card.Link href="#">Tickets</Card.Link>
+          <Button
+            className="ticket-button"
+            size="lg"
+            variant="secondary"
+            href="https://tproatlantic.ticketpro.ca/en/pages/BoyGolden?aff=AGE&fbclid=IwAR1VWcOcYR5ztrFASE4fjuQ61EFPbkOWaOK-s5AAaZnhR3N6baRl02yQVIM_aem_AfYAC0b9iYJipQ6_s13sF6jS3QUAlFLhMeZwl5oHvAjD_hJaKNPa5t5raFb0akY26jpBbq75CFiCWnKWSeD74sL6"
+          >
+            TICKETS
+          </Button>
         </CardFooter>
       </Card.Body>
     </Card>
