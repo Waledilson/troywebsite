@@ -101,6 +101,13 @@ body {
 .artist-website-button {
   background-color: #060606;
   border: none;
+  width: 100%;
+}
+.basement-artist-website-button {
+  font-size: 30pt;
+  background-color: #060606;
+  border: none;
+  width: 100%;
 }
 
 /* BOY GOLDEN CARD */
@@ -122,7 +129,6 @@ p {
   color: #fff;
   line-height: 0.9;
   text-align: center;
-  font-size: large;
 }
 .event-card {
   background-color: rgba(0, 0, 0, 0.8);
