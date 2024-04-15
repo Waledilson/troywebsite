@@ -48,6 +48,7 @@ function BoyGoldenCard() {
             className="artist-website-button"
             href="https://www.boygolden.ca/"
             variant="secondary"
+            target="_blank"
           >
             Boy Golden Website
           </Button>
@@ -64,6 +65,7 @@ function BoyGoldenCard() {
             className="artist-website-button"
             href="https://fontine.bandcamp.com/"
             variant="secondary"
+            target="_blank"
           >
             Fontine Bandcamp
           </Button>
