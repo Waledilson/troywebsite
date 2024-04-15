@@ -30,7 +30,7 @@ function BasementSessionsCard() {
             variant="secondary"
             target="_blank"
           >
-            Diamond City Spotify
+            <h1> Diamond City Spotify</h1>
           </Button>
           <Button
             className="basement-artist-website-button"
@@ -38,7 +38,7 @@ function BasementSessionsCard() {
             variant="secondary"
             target="_blank"
           >
-            Before The Dinosaurs Bandcamp
+            <h1>Before The Dinosaurs Bandcamp</h1>
           </Button>
           <Button
             className="basement-artist-website-button"
@@ -46,7 +46,7 @@ function BasementSessionsCard() {
             variant="secondary"
             target="_blank"
           >
-            Chester Doom Bandcamp
+            <h1>Chester Doom Bandcamp</h1>
           </Button>
         </Card.Text>
 
