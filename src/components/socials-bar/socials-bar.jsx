@@ -9,15 +9,6 @@ function SocialsBar() {
   return (
     <Navbar className="socials">
       <Nav className="socials-logos">
-        <Nav.Link>
-          <img
-            className="spotify-icon"
-            src={spotify_icon}
-            width="50px"
-            height="50px"
-            alt="link to troys spotify"
-          />
-        </Nav.Link>
         <Nav.Link href="https://www.facebook.com/share/Zs2kvn9zCuWpgAxF/?mibextid=WC7FNe">
           <img
             className="facebook-icon"

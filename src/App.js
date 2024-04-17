@@ -25,8 +25,8 @@ function App() {
               <Route path="/" element={<MainView />} />
             </Routes>
           </Row>
-          <BasementSessionsCard />
-          <BoyGoldenCard />
+          <BasementSessionsCard className="cards" />
+          <BoyGoldenCard className="cards" />
           <SocialsBar />
         </Router>
       </Container>

@@ -1,3 +1,6 @@
+html {
+  background-color: black;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,18 +8,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  overflow-x: hidden;
 }
-
-/* body {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("img/agelogo-round.JPG");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -36,21 +32,11 @@ body {
   padding: 0px 10px 200px 10px;
   margin-bottom: 0;
 }
-/* body {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("img/agelogo-round.JPG");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-} */
+
 .main {
   position: relative;
   padding: 100px 0px 0px 0px;
-  /* height: 100vh;
-  width: 100vh; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,6 +79,11 @@ body {
 }
 
 /* EVENTCARD GLOBAL */
+
+.cards {
+  margin-left: auto;
+  margin-right: auto;
+}
 .ticket-button {
   background-color: #060606;
   border: none;
@@ -106,6 +97,16 @@ body {
 .basement-artist-website-button {
   background-color: #060606;
   border: none;
+  width: 100%;
+}
+.event-card {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 10px 30px 10px;
+  align-items: center;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
@@ -129,10 +130,7 @@ p {
   line-height: 0.9;
   text-align: center;
 }
-.event-card {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 30px 10px 30px 10px;
-}
+
 .event-card-title {
   color: white;
   text-align: center;
@@ -166,11 +164,10 @@ p {
 }
 
 .navbar {
-  font-size: 30px;
-  border: 2px white;
   position: relative;
-  right: 0;
-  left: 0;
+  width: 100%;
+  right: auto;
+  left: auto;
   z-index: 1030;
 }
 
@@ -196,4 +193,5 @@ p {
 .socials {
   display: flex;
   justify-content: center;
+  align-items: center;
 }

@@ -13,11 +13,7 @@ function BoyGoldenCard() {
     Aos.init()
   }, [])
   return (
-    <Card
-      data-aos="fade-right"
-      className="event-card"
-      style={{ width: "90vw" }}
-    >
+    <Card data-aos="fade-left" className="event-card" style={{ width: "90vw" }}>
       <Card.Body>
         <Card.Img className="boy-golden-img" variant="top" src={BoyGoldenImg} />
         {/* <Card.Header as="h1" className="event-card-title">
