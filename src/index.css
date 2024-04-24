@@ -23,6 +23,7 @@ body {
   height: 100%;
   bottom: 90px;
   font-family: "Gill Sans", sans-serif;
+  /* font-family: "Cantarell", sans-serif; */
 }
 
 .agedescription {
@@ -78,6 +79,12 @@ body {
   }
 }
 
+/* NAVBAR */
+
+.navbar {
+  margin-bottom: 350px;
+}
+
 /* EVENTCARD GLOBAL */
 
 /* @media all and (min-width: 750px) {
@@ -100,20 +107,35 @@ body {
   border: none;
   width: 100%;
 }
+
+.ticket-button:hover {
+  color: #b1c479;
+  background-color: rgba(226, 179, 75, 0.4);
+}
 .artist-website-button {
   background-color: #060606;
   color: #e2b34b;
   border: none;
   width: 100%;
   opacity: 0.8;
+  font-size: 15pt;
+}
+
+.artist-website-button:hover {
+  color: #b1c479;
+  background-color: rgba(226, 179, 75, 0.4);
 }
 .basement-artist-website-button {
   background-color: #060606;
   color: #e2b34b;
   border: none;
-  opacity: 0.8;
-
+  /* opacity: 0.8; */
+  font-size: 15pt;
   width: 100%;
+}
+.basement-artist-website-button:hover {
+  color: #b1c479;
+  background-color: rgba(226, 179, 75, 0.4);
 }
 .event-card {
   background-color: rgba(0, 0, 0, 0.8);
@@ -135,9 +157,14 @@ body {
 
 h3 {
   position: relative;
-  color: #e2b34b;
+  color: #b1c479;
   line-height: 0.9;
   text-align: left;
+}
+
+h1 {
+  color: #b1c479;
+  font-variant: small-caps;
 }
 
 p {
@@ -145,6 +172,7 @@ p {
   color: #e2b34b;
   line-height: 0.9;
   text-align: center;
+  font-size: 15pt;
 }
 
 .event-card-title {
