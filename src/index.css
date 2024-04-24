@@ -26,7 +26,7 @@ body {
 }
 
 .agedescription {
-  color: white;
+  color: #e2b34b;
   font-size: 20pt;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 0px 10px 200px 10px;
@@ -55,7 +55,7 @@ body {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 /* @media (min-width: 768px) {
   .main::before {
@@ -80,59 +80,75 @@ body {
 
 /* EVENTCARD GLOBAL */
 
-.cards {
+/* @media all and (min-width: 750px) {
+  .event-card {
+    margin-right: 2fr;
+  }
+}
+.grid_event-cards {
+  display: inline-block;
+  width: 80%;
+} */
+
+/* .cards {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 .ticket-button {
   background-color: #060606;
+  color: #e2b34b;
   border: none;
   width: 100%;
 }
 .artist-website-button {
   background-color: #060606;
+  color: #e2b34b;
   border: none;
   width: 100%;
+  opacity: 0.8;
 }
 .basement-artist-website-button {
   background-color: #060606;
+  color: #e2b34b;
   border: none;
+  opacity: 0.8;
+
   width: 100%;
 }
 .event-card {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px 10px 30px 10px;
-  align-items: center;
+
+  /* align-items: center;
   display: flex;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   width: 100%;
 }
 
 /* BOY GOLDEN CARD */
 
-.boy-golden-img {
+/* .boy-golden-img {
   width: 100%;
   object-fit: cover;
-}
+} */
 
 h3 {
   position: relative;
-  color: #fff;
+  color: #e2b34b;
   line-height: 0.9;
   text-align: left;
 }
 
 p {
   position: relative;
-  color: #fff;
+  color: #e2b34b;
   line-height: 0.9;
   text-align: center;
 }
 
 .event-card-title {
-  color: white;
+  color: #e2b34b;
   text-align: center;
 }
 
@@ -151,10 +167,11 @@ p {
 
 /* BASEMENT CARD */
 
-.basement-img {
-  width: 100%;
+/* .basement-img {
+  width: 80%;
   object-fit: cover;
-}
+  align-items: center;
+} */
 
 /* NAVBAR */
 
@@ -172,9 +189,9 @@ p {
 }
 
 /* MAINVIEW */
-/* .logoback {
+.logoback {
   opacity: 0.7;
-} */
+}
 
 .event-one {
   color: white;

@@ -25,8 +25,14 @@ function App() {
               <Route path="/" element={<MainView />} />
             </Routes>
           </Row>
-          <BasementSessionsCard className="cards" />
-          <BoyGoldenCard className="cards" />
+          <div className="grid_event-cards">
+            <div>
+              <BasementSessionsCard className="cards" />
+            </div>
+            <li>
+              <BoyGoldenCard className="cards" />
+            </li>
+          </div>
           <SocialsBar />
         </Router>
       </Container>
