@@ -11,6 +11,7 @@ function SocialsBar() {
       <Nav className="socials-logos">
         <Nav.Link href="https://www.facebook.com/share/Zs2kvn9zCuWpgAxF/?mibextid=WC7FNe">
           <img
+            target="_blank"
             className="facebook-icon"
             src={facebook_icon}
             width="50px"
@@ -20,6 +21,7 @@ function SocialsBar() {
         </Nav.Link>
         <Nav.Link>
           <img
+            target="_blank"
             className="instagram-icon"
             src={instagram_icon}
             width="50px"
