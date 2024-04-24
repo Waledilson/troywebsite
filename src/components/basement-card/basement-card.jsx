@@ -14,11 +14,7 @@ function BasementSessionsCard() {
     Aos.init()
   }, [])
   return (
-    <Card
-      data-aos="fade-right"
-      className="event-card"
-      style={{ width: "90vw" }}
-    >
+    <Card data-aos="fade-right" className="event-card">
       {/* <Card.Img src={Surgelogo} className="surgelogo" alt="Card image" /> */}
       {/* <Card.ImgOverlay> */}
       <Card.Body className="basement-card">
