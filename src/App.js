@@ -12,7 +12,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Row from "react-bootstrap/Row"
 import Container from "react-bootstrap/Container"
 import SocialsBar from "../src/components/socials-bar/socials-bar"
-// import {Netlify_URL} from "../config.js"
 
 function App() {
   return (
@@ -26,9 +25,9 @@ function App() {
             </Routes>
           </Row>
           <div className="grid_event-cards">
-            <div>
+            {/* <div>
               <BasementSessionsCard className="cards" />
-            </div>
+            </div> */}
             <li>
               <BoyGoldenCard className="cards" />
             </li>

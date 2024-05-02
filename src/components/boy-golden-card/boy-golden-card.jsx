@@ -4,7 +4,6 @@ import CardFooter from "react-bootstrap/CardFooter"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-import Surgelogo from "../../../src/img/surge-logo.webp"
 import BoyGoldenImg from "../../../src/img/BoyGolden.jpg"
 import Button from "react-bootstrap/Button"
 
@@ -16,13 +15,7 @@ function BoyGoldenCard() {
     <Card data-aos="fade-left" className="event-card">
       <Card.Body>
         <Card.Img className="boy-golden-img" variant="top" src={BoyGoldenImg} />
-        {/* <Card.Header as="h1" className="event-card-title">
-          <img src={Surgelogo} height="130px" witdth="160px" /> & Arseneault
-          Group Entertainment Presents: */}
-        {/* <Card.Title as="h1" className="mb-2">
-          Boy Golden
-        </Card.Title> */}
-        {/* </Card.Header> */}
+
         <Card.Text as="p" className="event-card-body">
           <h1>Boy Golden</h1>
           <p>
@@ -67,13 +60,6 @@ function BoyGoldenCard() {
           </Button>
         </Card.Text>
 
-        {/* <Card.Text>Time & Place: May 17th 2024 / The Seahorse</Card.Text>
-        <Card.Text>Cost: $12,000</Card.Text> */}
-        {/* <img
-          src={BoyGoldenImg}
-          style={{ width: "100%", aspectRatio: 1 }}
-          alt="boy golden poster"
-        ></img> */}
         <CardFooter className="event-card-links">
           <Button
             className="ticket-button"
