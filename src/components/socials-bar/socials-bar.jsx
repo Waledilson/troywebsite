@@ -19,7 +19,7 @@ function SocialsBar() {
             alt="link to arseneault group entertainments facebook"
           />
         </Nav.Link>
-        <Nav.Link>
+        {/* <Nav.Link>
           <img
             target="_blank"
             className="instagram-icon"
@@ -28,7 +28,7 @@ function SocialsBar() {
             height="50px"
             alt="link to arseneault group entertainments instagram"
           />
-        </Nav.Link>
+        </Nav.Link> */}
       </Nav>
     </Navbar>
   )
