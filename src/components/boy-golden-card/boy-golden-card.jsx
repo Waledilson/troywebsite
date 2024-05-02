@@ -68,7 +68,7 @@ function BoyGoldenCard() {
             target="_blank"
             href="https://tproatlantic.ticketpro.ca/en/pages/BoyGolden?aff=AGE&fbclid=IwAR1VWcOcYR5ztrFASE4fjuQ61EFPbkOWaOK-s5AAaZnhR3N6baRl02yQVIM_aem_AfYAC0b9iYJipQ6_s13sF6jS3QUAlFLhMeZwl5oHvAjD_hJaKNPa5t5raFb0akY26jpBbq75CFiCWnKWSeD74sL6"
           >
-            TICKETS
+            GET TICKETS
           </Button>
         </CardFooter>
       </Card.Body>
