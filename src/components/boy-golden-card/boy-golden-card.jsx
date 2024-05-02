@@ -58,6 +58,27 @@ function BoyGoldenCard() {
           >
             Fontine Bandcamp
           </Button>
+          <h1>Bill Ricky</h1>
+          <p>
+            Bill Ricky is a multi-instrumental alt-country band in Halifax, Nova
+            Scotia. The group was formed in 2023 as a solo project for
+            frontwoman Leigh Wills and has quickly become a rambling ensemble.
+            With humble beginnings of busking and charity folk festivals, Bill
+            Ricky has since become a hot name for alt-country in the Halifax
+            music scene. The group takes inspiration from traditional country,
+            blues, and folk, with a unique knack for songwriting and
+            performance. Their original music combines heartfelt waltzing and
+            barn-burning-boot-stomping-good-old-fashioned fun. Bill Ricky is set
+            to release their debut self-titled EP in summer 2024.
+          </p>
+          <Button
+            className="artist-website-button"
+            href="https://linktr.ee/billricky"
+            variant="secondary"
+            target="_blank"
+          >
+            Bill Ricky Linktree
+          </Button>
         </Card.Text>
 
         <CardFooter className="event-card-links">

@@ -35,7 +35,7 @@ function App() {
         </Router>
       </Container>
       <SocialsBar />
-      <p className="dale">Designed by Dale Wilson</p>
+      <p className="dale">Website Design: Dale Wilson</p>
     </div>
   )
 }
