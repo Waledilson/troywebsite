@@ -16,7 +16,7 @@ function SocialsBar() {
             src={facebook_icon}
             width="50px"
             height="50px"
-            alt="link to troys spotify"
+            alt="link to arseneault group entertainments facebook"
           />
         </Nav.Link>
         <Nav.Link>
@@ -26,7 +26,7 @@ function SocialsBar() {
             src={instagram_icon}
             width="50px"
             height="50px"
-            alt="link to troys spotify"
+            alt="link to arseneault group entertainments instagram"
           />
         </Nav.Link>
       </Nav>

@@ -41,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .main::before {
@@ -49,7 +50,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* gotta fix the backtround logo jumpin around when scrolling on mobile */
 
   position: fixed;
   top: 0px;
@@ -58,54 +58,21 @@ body {
   left: 0px;
   opacity: 0.4;
 }
-/* @media (min-width: 768px) {
-  .main::before {
-    background-image: url("img/agelogo-round.JPG");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    height: 100vh;
-    width: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    min-height: 725px;
-  }
-} */
+
 @media (max-width: 768px) {
   body {
     height: 100vh;
   }
 }
 
-/* NAVBAR */
-
-.navbar {
-  margin-bottom: 350px;
-}
-
 /* EVENTCARD GLOBAL */
 
-/* @media all and (min-width: 750px) {
-  .event-card {
-    margin-right: 2fr;
-  }
-}
-.grid_event-cards {
-  display: inline-block;
-  width: 80%;
-} */
-
-/* .cards {
-  margin-left: auto;
-  margin-right: auto;
-} */
 .ticket-button {
   background-color: #060606;
   color: #e2b34b;
   border: none;
   width: 100%;
+  /* opacity: 0.8; */
 }
 
 .ticket-button:hover {
@@ -117,7 +84,7 @@ body {
   color: #e2b34b;
   border: none;
   width: 100%;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   font-size: 15pt;
 }
 
@@ -129,7 +96,6 @@ body {
   background-color: #060606;
   color: #e2b34b;
   border: none;
-  /* opacity: 0.8; */
   font-size: 15pt;
   width: 100%;
 }
@@ -140,20 +106,10 @@ body {
 .event-card {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 30px 10px 30px 10px;
-
-  /* align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
   width: 100%;
 }
 
 /* BOY GOLDEN CARD */
-
-/* .boy-golden-img {
-  width: 100%;
-  object-fit: cover;
-} */
 
 h3 {
   position: relative;
@@ -195,19 +151,15 @@ p {
 
 /* BASEMENT CARD */
 
-/* .basement-img {
-  width: 80%;
-  object-fit: cover;
-  align-items: center;
-} */
-
 /* NAVBAR */
 
 .bannerlogo {
   align-items: center;
   justify-content: center;
 }
-
+.navbar {
+  margin-bottom: 250px;
+}
 .navbar {
   position: relative;
   width: 100%;
@@ -228,15 +180,15 @@ p {
 /* SOCIALSVIEW */
 
 .socials {
-  padding: 100px 0px 0px 0px;
+  /* position: fixed; */
+  bottom: 0;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .socials-text {
   color: white;
-}
-
-.socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

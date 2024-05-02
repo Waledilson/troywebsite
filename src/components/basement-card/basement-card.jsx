@@ -15,8 +15,6 @@ function BasementSessionsCard() {
   }, [])
   return (
     <Card data-aos="fade-right" className="event-card">
-      {/* <Card.Img src={Surgelogo} className="surgelogo" alt="Card image" /> */}
-      {/* <Card.ImgOverlay> */}
       <Card.Body className="basement-card">
         <Card.Img className="basement-img" variant="top" src={BasementImg} />
         <Card.Text as="p" className="event-card-body">
@@ -61,13 +59,8 @@ function BasementSessionsCard() {
         </Card.Header>
          */}
 
-        <CardFooter className="event-card-links">
-          {/* <Button className="ticket-button" size="lg" variant="secondary">
-            TICKETS
-          </Button> */}
-        </CardFooter>
+        <CardFooter className="event-card-links"></CardFooter>
       </Card.Body>
-      {/* </Card.ImgOverlay> */}
     </Card>
   )
 }
