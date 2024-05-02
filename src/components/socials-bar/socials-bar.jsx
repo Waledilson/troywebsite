@@ -9,9 +9,11 @@ function SocialsBar() {
   return (
     <Navbar className="socials">
       <Nav className="socials-logos">
-        <Nav.Link href="https://www.facebook.com/share/Zs2kvn9zCuWpgAxF/?mibextid=WC7FNe">
+        <Nav.Link
+          href="https://www.facebook.com/share/Zs2kvn9zCuWpgAxF/?mibextid=WC7FNe"
+          target="_blank"
+        >
           <img
-            target="_blank"
             className="facebook-icon"
             src={facebook_icon}
             width="50px"
