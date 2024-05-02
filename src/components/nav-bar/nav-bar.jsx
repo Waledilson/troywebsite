@@ -7,7 +7,7 @@ import darkBanner from "../../../src/img/age-dark-banner.png"
 function NavBar() {
   return (
     <Navbar fixed="top" bg="black" data-bs-theme="dark">
-      <Container class="navbar">
+      <Container class="navbar" id="top-navbar">
         <Nav>
           <img
             src={darkBanner}

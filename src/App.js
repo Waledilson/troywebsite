@@ -32,9 +32,10 @@ function App() {
               <BoyGoldenCard className="cards" />
             </li>
           </div>
-          <SocialsBar />
         </Router>
       </Container>
+      <SocialsBar />
+      <p className="dale">Designed by Dale Wilson</p>
     </div>
   )
 }
