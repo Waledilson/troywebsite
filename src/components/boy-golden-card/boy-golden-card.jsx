@@ -14,84 +14,12 @@ function BoyGoldenCard() {
   return (
     <Card data-aos="fade-left" className="event-card">
       <Card.Body>
-        <Card.Img className="boy-golden-img" variant="top" src={BoyGoldenImg} />
-
         <Card.Text as="p" className="event-card-body">
-          <h1>Boy Golden</h1>
-          <p>
-            Boy Golden Everything becomes fluid when you can pass through time
-            and space like a ghost, a story, a melody. Boy Golden manifests all
-            three on For Jimmy. When listening to his music, it feels easy to
-            dissolve into the ether. Everything flows. Introspective and
-            vulnerable, traditional and queer, hard-headed and sensual, Boy
-            Golden&apos;s everyman-aesthetic appeals to us all. No matter what
-            frame of mind he&apos;s in, he&apos;ll fit us in for a good time.
-            We&apos;re here right now. Since releasing his debut album, Church
-            of Better Daze, in 2021, he&apos;s played every summer festival on
-            your list, curated and directed an art show and music video for “KD
-            & Lunchmeat”, the Seth-Rogenesque hit single that charted to #1 on
-            Alternative Radio, and toured with The Sheepdogs on a 60 date North
-            American tour.
-          </p>
-          <Button
-            className="artist-website-button"
-            href="https://www.boygolden.ca/"
-            variant="secondary"
-            target="_blank"
-          >
-            Boy Golden Website
-          </Button>
-          <h1>Fontine</h1>
-          <p>
-            A hush sweeps across Turtle Island. Birds flock to perch on towering
-            maples and the waving prairie grasses still. There is a name upon
-            the tongue of every creature from the elk to the shrew. FONTINE. A
-            gust of wind blows open the shutters of every home and young and old
-            kneel in reverence to the dawn of a new era. FONTINE. Queen of the
-            road, King of the song, FONTINE is here with a brand new EP.
-          </p>
-          <Button
-            className="artist-website-button"
-            href="https://fontine.bandcamp.com/"
-            variant="secondary"
-            target="_blank"
-          >
-            Fontine Bandcamp
-          </Button>
-          <h1>Bill Ricky</h1>
-          <p>
-            Bill Ricky is a multi-instrumental alt-country band in Halifax, Nova
-            Scotia. The group was formed in 2023 as a solo project for
-            frontwoman Leigh Wills and has quickly become a rambling ensemble.
-            With humble beginnings of busking and charity folk festivals, Bill
-            Ricky has since become a hot name for alt-country in the Halifax
-            music scene. The group takes inspiration from traditional country,
-            blues, and folk, with a unique knack for songwriting and
-            performance. Their original music combines heartfelt waltzing and
-            barn-burning-boot-stomping-good-old-fashioned fun. Bill Ricky is set
-            to release their debut self-titled EP in summer 2024.
-          </p>
-          <Button
-            className="artist-website-button"
-            href="https://linktr.ee/billricky"
-            variant="secondary"
-            target="_blank"
-          >
-            Bill Ricky Linktree
-          </Button>
+          <h1>Check back for more events soon...</h1>
+          <p></p>
         </Card.Text>
 
-        <CardFooter className="event-card-links">
-          <Button
-            className="ticket-button"
-            size="lg"
-            variant="secondary"
-            target="_blank"
-            href="https://tproatlantic.ticketpro.ca/en/pages/BoyGolden?aff=AGE&fbclid=IwAR1VWcOcYR5ztrFASE4fjuQ61EFPbkOWaOK-s5AAaZnhR3N6baRl02yQVIM_aem_AfYAC0b9iYJipQ6_s13sF6jS3QUAlFLhMeZwl5oHvAjD_hJaKNPa5t5raFb0akY26jpBbq75CFiCWnKWSeD74sL6"
-          >
-            GET TICKETS
-          </Button>
-        </CardFooter>
+        <CardFooter className="event-card-links"></CardFooter>
       </Card.Body>
     </Card>
   )

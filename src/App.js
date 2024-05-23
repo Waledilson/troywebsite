@@ -28,9 +28,7 @@ function App() {
             {/* <div>
               <BasementSessionsCard className="cards" />
             </div> */}
-            <li>
-              <BoyGoldenCard className="cards" />
-            </li>
+            <li><BoyGoldenCard className="cards" /></li>
           </div>
         </Router>
       </Container>
