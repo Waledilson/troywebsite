@@ -25,10 +25,12 @@ function App() {
             </Routes>
           </Row>
           <div className="grid_event-cards">
-            {/* <div>
+            <div>
               <BasementSessionsCard className="cards" />
-            </div> */}
-            <li><BoyGoldenCard className="cards" /></li>
+            </div>
+            <li>
+              <BoyGoldenCard className="cards" />
+            </li>
           </div>
         </Router>
       </Container>
