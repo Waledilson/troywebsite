@@ -4,7 +4,7 @@ import CardFooter from "react-bootstrap/CardFooter"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-import BoyGoldenImg from "../../../src/img/BoyGolden.jpg"
+import Card2Img from "../../../src/img/3490D47C-EC2B-4BD6-9B5E-8DB88FEB4694.JPG"
 import Button from "react-bootstrap/Button"
 
 function BoyGoldenCard() {
@@ -15,7 +15,7 @@ function BoyGoldenCard() {
     <Card data-aos="fade-left" className="event-card">
       <Card.Body>
         <Card.Text as="p" className="event-card-body">
-          <h1>Check back for more events soon...</h1>
+          <Card.Img className="basement-img" variant="top" src={Card2Img} />
           <p></p>
         </Card.Text>
 
