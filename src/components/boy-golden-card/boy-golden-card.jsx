@@ -5,7 +5,6 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
 import Card2Img from "../../../src/img/IMG_2081.jpg"
-import Button from "react-bootstrap/Button"
 
 function BoyGoldenCard() {
   useEffect(() => {
