@@ -4,8 +4,7 @@ import CardFooter from "react-bootstrap/CardFooter"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-import Card2Img from "../../../src/img/3490D47C-EC2B-4BD6-9B5E-8DB88FEB4694.JPG"
-import Button from "react-bootstrap/Button"
+import Card2Img from "../../../src/img/IMG_2081.jpg"
 
 function BoyGoldenCard() {
   useEffect(() => {
