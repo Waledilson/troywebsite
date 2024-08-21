@@ -4,17 +4,17 @@ import CardFooter from "react-bootstrap/CardFooter"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-import Card2Img from "../../../src/img/IMG_2081.jpg"
+import Card4Img from "../../../src/img/IMG_2111.JPG"
 
-function BoyGoldenCard() {
+function EventCardFour() {
   useEffect(() => {
     Aos.init()
   }, [])
   return (
-    <Card data-aos="fade-left" className="event-card">
+    <Card data-aos="fade-right" className="event-card">
       <Card.Body>
         <Card.Text as="p" className="event-card-body">
-          <Card.Img className="basement-img" variant="top" src={Card2Img} />
+          <Card.Img className="basement-img" variant="top" src={Card4Img} />
           <p></p>
         </Card.Text>
 
@@ -24,4 +24,4 @@ function BoyGoldenCard() {
   )
 }
 
-export default BoyGoldenCard
+export default EventCardFour
