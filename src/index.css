@@ -65,6 +65,11 @@ body {
   }
 }
 
+/* NEW GENERIC EVENTCARDS */
+.ticket-link {
+  color: #e2b34b;
+}
+
 /* EVENTCARD GLOBAL */
 
 .ticket-button {
