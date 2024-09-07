@@ -17,6 +17,7 @@ function EventCardOne() {
           <Card.Img className="basement-img" variant="top" src={Card1Img} />
           <h1>
             <a
+              className="ticket-link"
               target="_blank"
               href="https://tproatlantic.ticketpro.ca/en/pages/1622574407"
             >
