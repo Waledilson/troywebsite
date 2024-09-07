@@ -4,7 +4,7 @@ import CardFooter from "react-bootstrap/CardFooter"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
-import Card3Img from "../../../src/img/IMG_2110.JPG"
+import Card3Img from "../../../src/img/IMG_2236.JPG"
 
 function EventCardThree() {
   useEffect(() => {
@@ -15,7 +15,14 @@ function EventCardThree() {
       <Card.Body>
         <Card.Text as="p" className="event-card-body">
           <Card.Img className="basement-img" variant="top" src={Card3Img} />
-          <p></p>
+          <h1>
+            <a
+              target="_blank"
+              href="https://tproatlantic.ticketpro.ca/en/pages/1622574408"
+            >
+              CLICK HERE TO GET TICKETS
+            </a>
+          </h1>
         </Card.Text>
 
         <CardFooter className="event-card-links"></CardFooter>

@@ -31,7 +31,7 @@ function App() {
               <EventCardOne className="cards" />
               <EventCardTwo className="cards" />
               <EventCardThree className="cards" />
-              <EventCardFour className="cards" />
+              {/* <EventCardFour className="cards" /> */}
             </li>
           </div>
         </Router>
